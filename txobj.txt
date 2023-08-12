@@ -1,0 +1,50 @@
+
+{
+  "hash": "0x4d040df5546939c393c2b1093146f69c517cf8121d0fbeb953fae8a71acd04cd",
+  "type": 2,
+  "accessList": [],
+  "blockHash": null,
+  "blockNumber": null,
+  "transactionIndex": null,
+  "confirmations": 0,
+  "from": "0x5A2f607C9f57e2A9DC5DC635cb0352245c37F9ed",
+  "gasPrice": {
+    "type": "BigNumber",
+    "hex": "0x0a5684ad8d"
+  },
+  "maxPriorityFeePerGas": {
+    "type": "BigNumber",
+    "hex": "0x0a5684ad8d"
+  },
+  "maxFeePerGas": {
+    "type": "BigNumber",
+    "hex": "0x0a5684ad8d"
+  },
+  "gasLimit": {
+    "type": "BigNumber",
+    "hex": "0x5208"
+  },
+  "to": "0x46285aaBb41042f6987C4bc5edB9F89d696dd500",
+  "value": {
+    "type": "BigNumber",
+    "hex": "0x09184e72a000"
+  },
+  "nonce": 4,
+  "data": "0x",
+  "r": "0x63a5523d576f2b120341617f62fccde9be0240ba8d0ba46cd0caa8bb25a3468e",
+  "s": "0x08c5fc56d69c360229258cf73ba65f8957cbf3b533957c0c1d9938b8bf10a928",
+  "v": 1,
+  "creates": null,
+  "chainId": 5
+}
+
+// Modern txObj
+
+{
+  "txHash": "0x4ee04873c9ef07cf655540e1c5351651e771a482c7063cdfb9f633ea97ee9f0c",
+  "from": "0x5A2f607C9f57e2A9DC5DC635cb0352245c37F9ed",
+  "to": "0x46285aaBb41042f6987C4bc5edB9F89d696dd500",
+  "coin": "ethereum",
+  "method": "transfer(to,value)",
+  "value": "0.0001"
+}

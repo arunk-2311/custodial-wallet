@@ -1,0 +1,71 @@
+
+{
+  "hash": "0xe9d8c0c2e329081f69263d5dff777a7f19fda18f22cdfb3049a8514b8f533020",
+  "type": 2,
+  "accessList": [],
+  "blockHash": "0x6717fd9b208e99812a88a72ebf2d1986e13b8c1c2739531d2fae5ec33a273cae",
+  "blockNumber": 8613724,
+  "transactionIndex": 64,
+  "confirmations": 1,
+  "from": "0x5A2f607C9f57e2A9DC5DC635cb0352245c37F9ed",
+  "gasPrice": {
+    "type": "BigNumber",
+    "hex": "0x0e4e828d74"
+  },
+  "maxPriorityFeePerGas": {
+    "type": "BigNumber",
+    "hex": "0x3b9aca00"
+  },
+  "maxFeePerGas": {
+    "type": "BigNumber",
+    "hex": "0x1dcfd20378"
+  },
+  "gasLimit": {
+    "type": "BigNumber",
+    "hex": "0x8636"
+  },
+  "to": "0xBA62BCfcAaFc6622853cca2BE6Ac7d845BC0f2Dc",
+  "value": {
+    "type": "BigNumber",
+    "hex": "0x00"
+  },
+  "nonce": 7,
+  "data": "0xa9059cbb00000000000000000000000046285aabb41042f6987c4bc5edb9f89d696dd5000000000000000000000000000000000000000000000000000000000000002710",
+  "r": "0x29c77cd5e455036afd15fa6d3ccdcd3994811d0e90f4bc45a0715bec08aff0c4",
+  "s": "0x3044f959f1885a03f27b27f5a0ace736a2b98d6584dd0615c1d27368fad44074",
+  "v": 1,
+  "creates": null,
+  "chainId": 5
+}
+
+data decoded:
+
+
+{
+  "method": "transfer",
+  "types": [
+    "address",
+    "uint256"
+  ],
+  "inputs": [
+    "46285aaBb41042f6987C4bc5edB9F89d696dd500",
+    {
+      "type": "BigNumber",
+      "hex": "0x64"
+    }
+  ],
+  "names": [
+    "to",
+    "value"
+  ]
+}
+
+//Modern tx txObj
+
+{
+  "hash": "0x18d108d213d89c7760f366e0bd6e67385a74fb8c7b363f623827adf2c2413ed0",
+  "from": "0x5A2f607C9f57e2A9DC5DC635cb0352245c37F9ed",
+  "to": "0xBA62BCfcAaFc6622853cca2BE6Ac7d845BC0f2Dc",
+  "coin": "ethereum",
+  "value": "0.0"
+}
